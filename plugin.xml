@@ -7,6 +7,10 @@
  <keywords>cordova,apk,expansion,file,xapk,expansion file reader,xapk reader,xapkreader,android,agamemnus,flyingsoftgames</keywords>
  <engines><engine name="cordova" version=">=4.1.1" /></engines>
  
+ <js-module src="www/xapkreader.js" name="XAPKReader">
+     <clobbers target="XAPKReader" />
+ </js-module>
+ 
  <platform name="android">
   
   <dependency id="com.google.play.services" />
