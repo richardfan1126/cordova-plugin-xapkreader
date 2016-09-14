@@ -58,7 +58,7 @@ public class XAPKReader extends CordovaPlugin {
     Context context = cordova.getActivity().getApplicationContext();
     Intent intent = new Intent(context, XAPKDownloaderActivity.class);
     intent.putExtras (bundle);
-    cordova.getActivity().startActivity (intent);
+    //cordova.getActivity().startActivity (intent);
    }
   });
   
